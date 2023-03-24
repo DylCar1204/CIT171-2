@@ -104,6 +104,7 @@ const App = () => {
               disableDeviceFallback: true,
               cancelLabel: "Cancel",
             });
+            2;
             console.log("biometric Auth", biometricAuth);
           }}
         ></Button>

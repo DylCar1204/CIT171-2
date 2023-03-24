@@ -51,7 +51,7 @@ const Profile = (props) => {
 
   const myCustomerShare = async () => {
     const shareOptions = {
-      message: "This is a test",
+      message: "https://dev.stedi.com",
     };
     try {
       const shareResponse = await Share.share(shareOptions);
